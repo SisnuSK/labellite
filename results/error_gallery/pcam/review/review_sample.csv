@@ -1,0 +1,101 @@
+tile,id,true,pred,confidence,failure_type,notes
+tiles/000.png,test/67,normal,tumor,0.9112,ambiguous,stroma with large nuclei near fat
+tiles/001.png,test/131,tumor,normal,0.8295,ambiguous,lymphocytes and RBCs; no tumor cells visible to a non-expert
+tiles/002.png,test/226,tumor,normal,0.8618,ambiguous,dense lymphoid; no tumor visible
+tiles/003.png,test/470,tumor,normal,0.504,ambiguous,dense lymphoid; no tumor visible
+tiles/004.png,test/619,tumor,normal,0.5287,small_or_edge_region,cluster of larger cells at the left edge
+tiles/005.png,test/774,tumor,normal,0.9403,ambiguous,dense lymphoid; no tumor visible
+tiles/006.png,test/938,tumor,normal,0.9454,ambiguous,dense lymphoid; no tumor visible
+tiles/007.png,test/1224,tumor,normal,0.6741,model_error,cluster of large nuclei near center
+tiles/008.png,test/1554,tumor,normal,0.6083,small_or_edge_region,small dark cluster at top-left edge
+tiles/009.png,test/2317,tumor,normal,0.8341,ambiguous,lymphocytes and RBCs
+tiles/010.png,test/2442,normal,tumor,0.9011,artifact_or_blur,torn / folded tissue
+tiles/011.png,test/2788,tumor,normal,0.5897,ambiguous,loose cells
+tiles/012.png,test/2866,tumor,normal,0.69,label_noise,center is adipose; likely coarse annotation
+tiles/013.png,test/3746,tumor,normal,0.9888,ambiguous,dense lymphoid; no tumor visible
+tiles/014.png,test/4265,tumor,normal,0.8522,ambiguous,mostly red blood cells
+tiles/015.png,test/5198,tumor,normal,0.5967,model_error,pale larger cells in center
+tiles/016.png,test/5509,normal,tumor,0.7624,ambiguous,lymphoid with some larger cells
+tiles/017.png,test/7263,tumor,normal,0.9381,label_noise,center is adipose; likely coarse annotation
+tiles/018.png,test/8322,normal,tumor,0.9953,ambiguous,tissue fragments with large nuclei; confident false positive
+tiles/019.png,test/8347,normal,tumor,0.5476,model_error,loose stroma predicted tumor
+tiles/020.png,test/8566,tumor,normal,0.6125,ambiguous,lymphocytes; few larger cells
+tiles/021.png,test/8622,tumor,normal,0.8917,ambiguous,loose cells at stroma edge
+tiles/022.png,test/8728,tumor,normal,0.7496,ambiguous,mixed cells and RBCs
+tiles/023.png,test/9434,tumor,normal,0.7216,label_noise,adipose only; likely coarse annotation
+tiles/024.png,test/9512,tumor,normal,0.6628,model_error,larger cells with nucleoli near center
+tiles/025.png,test/10004,tumor,normal,0.6189,small_or_edge_region,tissue only at top-right edge
+tiles/026.png,test/10278,tumor,normal,0.5318,ambiguous,
+tiles/027.png,test/10722,tumor,normal,0.8771,ambiguous,dense lymphoid
+tiles/028.png,test/10881,tumor,normal,0.9098,ambiguous,lymphoid beside collagen
+tiles/029.png,test/11541,tumor,normal,0.9158,small_or_edge_region,cells only at left edge of fat
+tiles/030.png,test/12055,tumor,normal,0.7994,ambiguous,stroma with scattered cells
+tiles/031.png,test/12081,tumor,normal,0.9157,ambiguous,dense lymphoid
+tiles/032.png,test/12120,tumor,normal,0.9034,small_or_edge_region,tissue only at the edge; mostly background
+tiles/033.png,test/12136,tumor,normal,0.5228,label_noise,adipose; likely coarse annotation
+tiles/034.png,test/12239,tumor,normal,0.541,ambiguous,
+tiles/035.png,test/12262,tumor,normal,0.5549,small_or_edge_region,cells only at top edge of fat
+tiles/036.png,test/12584,tumor,normal,0.8648,ambiguous,mixed cells and RBCs
+tiles/037.png,test/12665,tumor,normal,0.7414,ambiguous,vacuolated cells
+tiles/038.png,test/13315,tumor,normal,0.556,ambiguous,
+tiles/039.png,test/13462,tumor,normal,0.7785,artifact_or_blur,torn fragments
+tiles/040.png,test/14623,tumor,normal,0.9673,ambiguous,fairly uniform cells
+tiles/041.png,test/15035,normal,tumor,0.5307,ambiguous,dense dark cells under stroma band
+tiles/042.png,test/15362,tumor,normal,0.5252,ambiguous,spindle stroma
+tiles/043.png,test/15527,tumor,normal,0.8928,ambiguous,
+tiles/044.png,test/15936,tumor,normal,0.6469,ambiguous,dense dark cells
+tiles/045.png,test/16162,tumor,normal,0.5803,ambiguous,pale vacuolated cells
+tiles/046.png,test/16621,tumor,normal,0.6583,artifact_or_blur,blurred
+tiles/047.png,test/16706,tumor,normal,0.7935,stain_or_color,pale blue staining
+tiles/048.png,test/16858,tumor,normal,0.9561,label_noise,stroma and fat; likely coarse annotation
+tiles/049.png,test/16887,tumor,normal,0.7468,label_noise,adipose; likely coarse annotation
+tiles/050.png,test/16894,tumor,normal,0.5348,ambiguous,
+tiles/051.png,test/17287,tumor,normal,0.6899,stain_or_color,"dark, heavily stained"
+tiles/052.png,test/17375,tumor,normal,0.8884,ambiguous,"stroma, vessel, few cells"
+tiles/053.png,test/18106,tumor,normal,0.8008,model_error,cohesive cluster of larger cells between fat
+tiles/054.png,test/18168,tumor,normal,0.7619,small_or_edge_region,cells only at bottom edge
+tiles/055.png,test/18687,tumor,normal,0.6011,ambiguous,stroma
+tiles/056.png,test/18791,tumor,normal,0.5054,ambiguous,lymphoid beside capsule
+tiles/057.png,test/19255,tumor,normal,0.5514,ambiguous,
+tiles/058.png,test/19620,normal,tumor,0.6754,model_error,mostly fat and background predicted tumor
+tiles/059.png,test/19719,tumor,normal,0.9417,ambiguous,
+tiles/060.png,test/19876,tumor,normal,0.8828,model_error,larger cells with prominent nuclei
+tiles/061.png,test/19948,tumor,normal,0.8857,small_or_edge_region,few floating cells; mostly background
+tiles/062.png,test/20096,tumor,normal,0.8366,ambiguous,
+tiles/063.png,test/20502,normal,tumor,0.7105,ambiguous,loose cells near fat
+tiles/064.png,test/20647,tumor,normal,0.8842,small_or_edge_region,tissue strand at edge of fat
+tiles/065.png,test/20721,tumor,normal,0.8526,ambiguous,
+tiles/066.png,test/21271,tumor,normal,0.695,model_error,central cluster of larger pale cells
+tiles/067.png,test/21369,tumor,normal,0.744,model_error,larger pale cells visible
+tiles/068.png,test/21515,normal,tumor,0.5584,ambiguous,uniform pale cells with oval nuclei
+tiles/069.png,test/21991,tumor,normal,0.7173,model_error,larger atypical-looking cells
+tiles/070.png,test/22589,tumor,normal,0.6266,ambiguous,dense dark cells
+tiles/071.png,test/22702,tumor,normal,0.6315,ambiguous,
+tiles/072.png,test/22748,tumor,normal,0.8714,ambiguous,dense dark cells
+tiles/073.png,test/22766,tumor,normal,0.9245,model_error,cluster of larger pale cells
+tiles/074.png,test/22773,tumor,normal,0.9673,ambiguous,
+tiles/075.png,test/23052,normal,tumor,0.9705,ambiguous,large cells at bottom; confident false positive
+tiles/076.png,test/24008,tumor,normal,0.5965,artifact_or_blur,out of focus
+tiles/077.png,test/24153,tumor,normal,0.8085,model_error,pale cluster in center
+tiles/078.png,test/24617,tumor,normal,0.7105,model_error,cluster of larger pale cells in center
+tiles/079.png,test/25378,tumor,normal,0.9365,ambiguous,
+tiles/080.png,test/25542,tumor,normal,0.7069,label_noise,adipose with small fragments; likely coarse annotation
+tiles/081.png,test/25549,tumor,normal,0.8245,ambiguous,spindle cells in stroma
+tiles/082.png,test/26535,tumor,normal,0.6131,model_error,larger epithelioid-looking cells
+tiles/083.png,test/26661,tumor,normal,0.7602,ambiguous,spindle stroma
+tiles/084.png,test/26741,tumor,normal,0.6654,model_error,cohesive larger cells with nucleoli
+tiles/085.png,test/27139,tumor,normal,0.7508,model_error,cluster of larger pale cells
+tiles/086.png,test/27168,tumor,normal,0.949,ambiguous,
+tiles/087.png,test/27214,tumor,normal,0.7937,ambiguous,
+tiles/088.png,test/27319,tumor,normal,0.8594,ambiguous,dense cells with collagen band
+tiles/089.png,test/28077,tumor,normal,0.9592,model_error,cohesive larger pale cells
+tiles/090.png,test/28719,tumor,normal,0.8062,ambiguous,
+tiles/091.png,test/28724,tumor,normal,0.7691,ambiguous,
+tiles/092.png,test/28965,normal,tumor,0.8613,artifact_or_blur,"torn tissue edge, mostly background"
+tiles/093.png,test/29518,tumor,normal,0.9703,artifact_or_blur,out-of-focus fragments
+tiles/094.png,test/30140,tumor,normal,0.9842,ambiguous,dense lymphoid
+tiles/095.png,test/30564,tumor,normal,0.6931,ambiguous,stroma
+tiles/096.png,test/30648,tumor,normal,0.6978,ambiguous,
+tiles/097.png,test/31422,tumor,normal,0.9344,small_or_edge_region,cells only at top edge
+tiles/098.png,test/32073,tumor,normal,0.8682,artifact_or_blur,loose fragments
+tiles/099.png,test/32323,tumor,normal,0.5812,ambiguous,

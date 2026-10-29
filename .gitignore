@@ -1,0 +1,58 @@
+# Python / tooling
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+build/
+dist/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Raw data, caches, weights (never committed)
+data/raw/
+data/cache/
+data/features/
+data/uploads/
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.safetensors
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+*.joblib
+runs/
+lightning_logs/
+.cache/
+
+# Fixed split IDs ARE committed
+!data/splits/**
+
+# Report build artifacts
+report/*.aux
+report/*.log
+report/*.out
+report/*.bbl
+report/*.blg
+report/*.synctex.gz
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Run logs
+logs/
+
+# Review tiles are dataset images; the CSV sheet and gallery PNGs are kept.
+results/error_gallery/*/review/tiles/
+report/*.fls
+report/*.fdb_latexmk

@@ -1,0 +1,14 @@
+# RQ5: simulated active learning on cached features (see src/labellite/active/loop.py).
+# Start from the 1% label-budget subset of each seed; 10 rounds of +1% of the train pool.
+datasets: [pcam, eurosat]
+models: [dinov2_vitb14, phikon]   # best general-purpose and the pathology model
+strategies: [random, least_confidence, entropy, conformal_set_size, kcenter]
+initial_fraction: 0.01
+query_fraction: 0.01
+rounds: 10
+seeds: [0, 1, 2]
+conformal_alpha: 0.10
+n_jobs: 6
+blas_threads: 4         # same in every run (results depend on it at the last digits)
+main_config: configs/main.yaml
+results_dir: results/active

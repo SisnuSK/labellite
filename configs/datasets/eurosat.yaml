@@ -1,0 +1,8 @@
+# EuroSAT RGB has no official split: stratified 60/10/10/20 split of all 27,000 images.
+name: eurosat
+root: data/raw/eurosat
+split_seed: 0
+split_fractions: {train: 0.6, val: 0.1, cal: 0.1, test: 0.2}
+label_budgets: [0.01, 0.1, 1.0]
+budget_seeds: [0, 1, 2]
+eval_subset_size: null

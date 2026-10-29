@@ -1,0 +1,18 @@
+# Shared settings for probe / conformal / analyze.
+datasets: [pcam, eurosat]
+models: [resnet50, dinov2_vitb14, clip_vitb16, phikon]
+label_budgets: [0.01, 0.1, 1.0]
+seeds: [0, 1, 2]
+knn_k: 20
+c_grid: [0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0]  # linear-probe C, chosen on val
+bootstrap_resamples: 1000
+conformal_alphas: [0.10, 0.05]   # target coverage 90% / 95%
+conformal_methods: [lac, aps]
+ece_bins: 15
+cal_ts_fraction: 0.5   # half of cal fits the temperature, half calibrates conformal
+cal_split_seed: 0
+figure_budget: 0.1     # budget shown in reliability / coverage figures
+cache_dir: data/cache/features
+results_dir: results
+datasets_config_dir: configs/datasets
+zeroshot_prompts: configs/zeroshot.yaml

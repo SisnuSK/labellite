@@ -1,0 +1,14 @@
+# RQ4: synthetic stain shift of the PCam test split (see src/labellite/data/shift.py).
+# At severity s, hematoxylin is scaled by (1 - 0.15 s) and eosin by (1 + 0.25 s).
+# These values were fixed by looking at example images, before any shifted results existed.
+dataset: pcam
+severities: [1, 2, 3]
+hematoxylin_step: 0.15
+eosin_step: 0.25
+models: [resnet50, dinov2_vitb14, clip_vitb16, phikon]
+batch_size: 256
+num_workers: 4
+device: cuda
+amp: true
+main_config: configs/main.yaml
+finetune_config: configs/finetune/resnet50_pcam.yaml

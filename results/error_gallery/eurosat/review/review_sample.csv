@@ -1,0 +1,101 @@
+tile,id,true,pred,confidence,failure_type,notes
+tiles/000.png,AnnualCrop/AnnualCrop_1024.jpg,AnnualCrop,PermanentCrop,0.585,look_alike_class,
+tiles/001.png,AnnualCrop/AnnualCrop_1213.jpg,AnnualCrop,PermanentCrop,0.7119,look_alike_class,
+tiles/002.png,AnnualCrop/AnnualCrop_127.jpg,AnnualCrop,SeaLake,0.823,ambiguous,mostly uniform dark area resembling water
+tiles/003.png,AnnualCrop/AnnualCrop_1278.jpg,AnnualCrop,Highway,0.9624,look_alike_class,long straight strips resemble a road
+tiles/004.png,AnnualCrop/AnnualCrop_1441.jpg,AnnualCrop,PermanentCrop,0.9678,look_alike_class,
+tiles/005.png,AnnualCrop/AnnualCrop_1525.jpg,AnnualCrop,PermanentCrop,0.5376,look_alike_class,
+tiles/006.png,AnnualCrop/AnnualCrop_1537.jpg,AnnualCrop,Pasture,0.4063,look_alike_class,
+tiles/007.png,AnnualCrop/AnnualCrop_159.jpg,AnnualCrop,PermanentCrop,0.51,look_alike_class,
+tiles/008.png,AnnualCrop/AnnualCrop_1940.jpg,AnnualCrop,PermanentCrop,0.994,look_alike_class,
+tiles/009.png,AnnualCrop/AnnualCrop_203.jpg,AnnualCrop,PermanentCrop,0.7491,look_alike_class,
+tiles/010.png,AnnualCrop/AnnualCrop_238.jpg,AnnualCrop,PermanentCrop,0.9514,look_alike_class,
+tiles/011.png,AnnualCrop/AnnualCrop_2400.jpg,AnnualCrop,River,0.4222,ambiguous,river channel present at left edge
+tiles/012.png,AnnualCrop/AnnualCrop_2552.jpg,AnnualCrop,PermanentCrop,0.5613,look_alike_class,
+tiles/013.png,AnnualCrop/AnnualCrop_2896.jpg,AnnualCrop,PermanentCrop,0.8776,look_alike_class,
+tiles/014.png,AnnualCrop/AnnualCrop_496.jpg,AnnualCrop,Highway,0.5681,look_alike_class,field boundaries resemble roads
+tiles/015.png,AnnualCrop/AnnualCrop_982.jpg,AnnualCrop,PermanentCrop,0.8328,look_alike_class,
+tiles/016.png,Forest/Forest_1440.jpg,Forest,HerbaceousVegetation,0.7013,look_alike_class,
+tiles/017.png,Forest/Forest_1655.jpg,Forest,Pasture,0.4011,look_alike_class,
+tiles/018.png,HerbaceousVegetation/HerbaceousVegetation_1201.jpg,HerbaceousVegetation,SeaLake,0.9341,label_noise,image is mostly water
+tiles/019.png,HerbaceousVegetation/HerbaceousVegetation_24.jpg,HerbaceousVegetation,Pasture,0.8091,look_alike_class,
+tiles/020.png,HerbaceousVegetation/HerbaceousVegetation_2439.jpg,HerbaceousVegetation,Pasture,0.5992,look_alike_class,
+tiles/021.png,HerbaceousVegetation/HerbaceousVegetation_2612.jpg,HerbaceousVegetation,Pasture,0.5094,look_alike_class,
+tiles/022.png,HerbaceousVegetation/HerbaceousVegetation_736.jpg,HerbaceousVegetation,SeaLake,0.5179,label_noise,image looks like water / haze
+tiles/023.png,Highway/Highway_1156.jpg,Highway,River,0.7956,look_alike_class,road through forest resembles a river
+tiles/024.png,Highway/Highway_1392.jpg,Highway,PermanentCrop,0.944,small_or_edge_region,highway only along left edge
+tiles/025.png,Highway/Highway_1491.jpg,Highway,Industrial,0.7826,ambiguous,highway beside industrial buildings
+tiles/026.png,Highway/Highway_1677.jpg,Highway,PermanentCrop,0.6355,model_error,highway clearly visible
+tiles/027.png,Highway/Highway_1913.jpg,Highway,River,0.9028,look_alike_class,thin line through forest
+tiles/028.png,Highway/Highway_2048.jpg,Highway,River,0.9983,look_alike_class,curved road through forest
+tiles/029.png,Highway/Highway_2145.jpg,Highway,PermanentCrop,0.521,model_error,interchange clearly visible
+tiles/030.png,Highway/Highway_2197.jpg,Highway,Industrial,0.9833,ambiguous,buildings and road
+tiles/031.png,Highway/Highway_2273.jpg,Highway,AnnualCrop,0.7398,model_error,crossing roads clearly visible
+tiles/032.png,Highway/Highway_2280.jpg,Highway,River,0.6006,look_alike_class,road resembles a river
+tiles/033.png,Highway/Highway_292.jpg,Highway,PermanentCrop,0.9734,model_error,highway clearly visible
+tiles/034.png,Highway/Highway_479.jpg,Highway,River,0.7008,look_alike_class,road resembles a river
+tiles/035.png,Highway/Highway_628.jpg,Highway,Forest,0.4217,ambiguous,road through mostly forest
+tiles/036.png,Highway/Highway_672.jpg,Highway,AnnualCrop,0.6619,small_or_edge_region,"thin road, small part of image"
+tiles/037.png,Highway/Highway_767.jpg,Highway,PermanentCrop,0.6727,small_or_edge_region,"bridge/road, small part of image"
+tiles/038.png,Highway/Highway_794.jpg,Highway,Residential,0.4618,ambiguous,road and residential area
+tiles/039.png,Highway/Highway_921.jpg,Highway,Pasture,0.7234,stain_or_color,strong blue cast / haze
+tiles/040.png,Industrial/Industrial_1286.jpg,Industrial,Residential,0.8875,look_alike_class,industrial vs residential
+tiles/041.png,Industrial/Industrial_1611.jpg,Industrial,Highway,0.792,model_error,industrial buildings clearly visible
+tiles/042.png,Industrial/Industrial_2021.jpg,Industrial,PermanentCrop,0.5293,model_error,industrial buildings clearly visible
+tiles/043.png,Industrial/Industrial_2144.jpg,Industrial,Highway,0.5054,ambiguous,buildings and roads
+tiles/044.png,Industrial/Industrial_2269.jpg,Industrial,Highway,0.7158,ambiguous,mixed residential and industrial
+tiles/045.png,Industrial/Industrial_546.jpg,Industrial,Residential,0.9258,look_alike_class,dense buildings
+tiles/046.png,Industrial/Industrial_704.jpg,Industrial,PermanentCrop,0.6679,model_error,industrial clearly visible
+tiles/047.png,Pasture/Pasture_136.jpg,Pasture,HerbaceousVegetation,0.9559,look_alike_class,
+tiles/048.png,Pasture/Pasture_1393.jpg,Pasture,PermanentCrop,0.5238,look_alike_class,
+tiles/049.png,Pasture/Pasture_1614.jpg,Pasture,HerbaceousVegetation,0.9978,look_alike_class,
+tiles/050.png,Pasture/Pasture_1750.jpg,Pasture,HerbaceousVegetation,0.885,look_alike_class,
+tiles/051.png,Pasture/Pasture_1881.jpg,Pasture,HerbaceousVegetation,0.7471,look_alike_class,
+tiles/052.png,Pasture/Pasture_347.jpg,Pasture,PermanentCrop,0.8115,look_alike_class,
+tiles/053.png,Pasture/Pasture_479.jpg,Pasture,River,0.7581,ambiguous,river/oxbow present
+tiles/054.png,Pasture/Pasture_689.jpg,Pasture,HerbaceousVegetation,0.552,look_alike_class,
+tiles/055.png,Pasture/Pasture_722.jpg,Pasture,AnnualCrop,0.7481,look_alike_class,
+tiles/056.png,PermanentCrop/PermanentCrop_114.jpg,PermanentCrop,HerbaceousVegetation,0.6331,look_alike_class,
+tiles/057.png,PermanentCrop/PermanentCrop_1261.jpg,PermanentCrop,HerbaceousVegetation,0.8205,look_alike_class,
+tiles/058.png,PermanentCrop/PermanentCrop_1328.jpg,PermanentCrop,AnnualCrop,0.6086,look_alike_class,blue cast
+tiles/059.png,PermanentCrop/PermanentCrop_1440.jpg,PermanentCrop,AnnualCrop,0.7584,look_alike_class,
+tiles/060.png,PermanentCrop/PermanentCrop_1521.jpg,PermanentCrop,HerbaceousVegetation,0.9873,look_alike_class,
+tiles/061.png,PermanentCrop/PermanentCrop_1959.jpg,PermanentCrop,HerbaceousVegetation,0.9679,look_alike_class,
+tiles/062.png,PermanentCrop/PermanentCrop_2007.jpg,PermanentCrop,HerbaceousVegetation,0.4028,look_alike_class,
+tiles/063.png,PermanentCrop/PermanentCrop_2040.jpg,PermanentCrop,HerbaceousVegetation,0.9923,look_alike_class,
+tiles/064.png,PermanentCrop/PermanentCrop_2104.jpg,PermanentCrop,Industrial,0.5374,ambiguous,buildings and fields
+tiles/065.png,PermanentCrop/PermanentCrop_2182.jpg,PermanentCrop,Industrial,0.4812,ambiguous,village and fields
+tiles/066.png,PermanentCrop/PermanentCrop_23.jpg,PermanentCrop,AnnualCrop,0.9378,look_alike_class,
+tiles/067.png,PermanentCrop/PermanentCrop_2359.jpg,PermanentCrop,AnnualCrop,0.4519,look_alike_class,
+tiles/068.png,PermanentCrop/PermanentCrop_2425.jpg,PermanentCrop,AnnualCrop,0.9825,look_alike_class,
+tiles/069.png,PermanentCrop/PermanentCrop_2440.jpg,PermanentCrop,HerbaceousVegetation,0.752,look_alike_class,
+tiles/070.png,PermanentCrop/PermanentCrop_526.jpg,PermanentCrop,River,0.796,look_alike_class,terraces resemble channels
+tiles/071.png,PermanentCrop/PermanentCrop_546.jpg,PermanentCrop,HerbaceousVegetation,0.9705,look_alike_class,
+tiles/072.png,PermanentCrop/PermanentCrop_62.jpg,PermanentCrop,HerbaceousVegetation,0.9982,look_alike_class,
+tiles/073.png,PermanentCrop/PermanentCrop_677.jpg,PermanentCrop,HerbaceousVegetation,0.3566,look_alike_class,
+tiles/074.png,PermanentCrop/PermanentCrop_713.jpg,PermanentCrop,Highway,0.4048,ambiguous,road at right edge
+tiles/075.png,PermanentCrop/PermanentCrop_854.jpg,PermanentCrop,AnnualCrop,0.3391,look_alike_class,
+tiles/076.png,PermanentCrop/PermanentCrop_950.jpg,PermanentCrop,AnnualCrop,0.5544,look_alike_class,
+tiles/077.png,Residential/Residential_1003.jpg,Residential,Pasture,0.4861,stain_or_color,dark hazy image
+tiles/078.png,Residential/Residential_1864.jpg,Residential,Highway,0.7874,ambiguous,residential with railway/road
+tiles/079.png,Residential/Residential_2633.jpg,Residential,Industrial,0.5953,look_alike_class,
+tiles/080.png,River/River_1385.jpg,River,Forest,0.6242,model_error,wide river clearly visible
+tiles/081.png,River/River_1566.jpg,River,PermanentCrop,0.4754,ambiguous,canal among fields
+tiles/082.png,River/River_1601.jpg,River,Pasture,0.3973,small_or_edge_region,thin river among fields
+tiles/083.png,River/River_1694.jpg,River,Highway,0.9208,look_alike_class,straight canal resembles a road
+tiles/084.png,River/River_1770.jpg,River,HerbaceousVegetation,0.99,small_or_edge_region,"thin river, small part of image"
+tiles/085.png,River/River_1807.jpg,River,HerbaceousVegetation,0.7852,model_error,river visible
+tiles/086.png,River/River_1899.jpg,River,Industrial,0.4914,ambiguous,harbor basin with industrial buildings
+tiles/087.png,River/River_1937.jpg,River,Highway,0.9365,look_alike_class,river with adjacent road
+tiles/088.png,River/River_1979.jpg,River,Highway,0.6498,look_alike_class,curved canal resembles a road
+tiles/089.png,River/River_1985.jpg,River,SeaLake,0.5871,look_alike_class,wide water
+tiles/090.png,River/River_2382.jpg,River,Highway,0.6663,look_alike_class,pale wide channel
+tiles/091.png,River/River_2442.jpg,River,HerbaceousVegetation,0.429,model_error,river visible
+tiles/092.png,River/River_318.jpg,River,AnnualCrop,0.4689,ambiguous,no clear river visible
+tiles/093.png,River/River_53.jpg,River,Highway,0.6384,look_alike_class,straight canal beside road
+tiles/094.png,SeaLake/SeaLake_1015.jpg,SeaLake,River,0.8883,look_alike_class,water with shore
+tiles/095.png,SeaLake/SeaLake_1172.jpg,SeaLake,Forest,0.7016,model_error,uniform water
+tiles/096.png,SeaLake/SeaLake_1347.jpg,SeaLake,Pasture,0.6733,model_error,water with shore
+tiles/097.png,SeaLake/SeaLake_1518.jpg,SeaLake,AnnualCrop,0.5686,model_error,clearly a lake
+tiles/098.png,SeaLake/SeaLake_2054.jpg,SeaLake,River,0.8378,look_alike_class,water with shore
+tiles/099.png,SeaLake/SeaLake_2296.jpg,SeaLake,River,0.9901,look_alike_class,water with road edge

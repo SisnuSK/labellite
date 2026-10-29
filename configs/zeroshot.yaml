@@ -1,0 +1,28 @@
+# CLIP zero-shot prompts. Written for this project (not tuned on any labels); each class's
+# prompts are averaged in embedding space. Class order must match the dataset's label order.
+eurosat:
+  classnames:
+    - annual crop land
+    - forest
+    - herbaceous vegetation land
+    - highway or road
+    - industrial buildings
+    - pasture land
+    - permanent crop land
+    - residential buildings
+    - river
+    - sea or lake
+  templates:
+    - "a satellite photo of {}."
+    - "a centered satellite photo of {}."
+    - "an aerial view of {}."
+    - "a Sentinel-2 satellite image of {}."
+pcam:
+  classnames:
+    - normal lymph node tissue
+    - lymph node tissue containing metastatic tumor cells
+  templates:
+    - "a histopathology image of {}."
+    - "an H&E stained microscopy patch of {}."
+    - "a photo of {}."
+    - "a pathology slide patch showing {}."

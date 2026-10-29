@@ -1,0 +1,152 @@
+{
+  "command": "active_learning",
+  "created_utc": "2026-10-28T21:39:49+00:00",
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "config": {
+    "datasets": [
+      "pcam",
+      "eurosat"
+    ],
+    "models": [
+      "dinov2_vitb14",
+      "phikon"
+    ],
+    "strategies": [
+      "random",
+      "least_confidence",
+      "entropy",
+      "conformal_set_size",
+      "kcenter"
+    ],
+    "initial_fraction": 0.01,
+    "query_fraction": 0.01,
+    "rounds": 10,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conformal_alpha": 0.1,
+    "n_jobs": 6,
+    "blas_threads": 4,
+    "main_config": "configs\\main.yaml",
+    "results_dir": "results\\active"
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.16",
+    "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "cuda_available": true,
+    "cuda_version": "13.0"
+  },
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "timm": "1.0.30",
+    "open_clip_torch": "3.3.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4"
+  },
+  "run": {
+    "dataset": "eurosat",
+    "model": "dinov2_vitb14",
+    "strategy": "kcenter",
+    "seed": 1
+  },
+  "split_hash": "2d55b6e0c78a1d17ce44d00d9f9b6b1c05e4210c017baec6fb39911129ee91f8",
+  "history": [
+    {
+      "round": 0,
+      "n_labeled": 162,
+      "C": 1000.0,
+      "accuracy": 0.8925925925925926,
+      "macro_f1": 0.8881567591200739,
+      "balanced_accuracy": 0.8874166666666667
+    },
+    {
+      "round": 1,
+      "n_labeled": 324,
+      "C": 100.0,
+      "accuracy": 0.9098148148148149,
+      "macro_f1": 0.9058229898399366,
+      "balanced_accuracy": 0.90535
+    },
+    {
+      "round": 2,
+      "n_labeled": 486,
+      "C": 100.0,
+      "accuracy": 0.9135185185185185,
+      "macro_f1": 0.9104529526604269,
+      "balanced_accuracy": 0.9106333333333332
+    },
+    {
+      "round": 3,
+      "n_labeled": 648,
+      "C": 100.0,
+      "accuracy": 0.9174074074074074,
+      "macro_f1": 0.9146016516442572,
+      "balanced_accuracy": 0.91515
+    },
+    {
+      "round": 4,
+      "n_labeled": 810,
+      "C": 1000.0,
+      "accuracy": 0.922962962962963,
+      "macro_f1": 0.920321446283461,
+      "balanced_accuracy": 0.9206
+    },
+    {
+      "round": 5,
+      "n_labeled": 972,
+      "C": 100.0,
+      "accuracy": 0.9237037037037037,
+      "macro_f1": 0.9211150843085887,
+      "balanced_accuracy": 0.9215666666666668
+    },
+    {
+      "round": 6,
+      "n_labeled": 1134,
+      "C": 100.0,
+      "accuracy": 0.9257407407407408,
+      "macro_f1": 0.9234281161179225,
+      "balanced_accuracy": 0.9242833333333333
+    },
+    {
+      "round": 7,
+      "n_labeled": 1296,
+      "C": 100.0,
+      "accuracy": 0.9287037037037037,
+      "macro_f1": 0.9262428079736195,
+      "balanced_accuracy": 0.9271833333333334
+    },
+    {
+      "round": 8,
+      "n_labeled": 1458,
+      "C": 100.0,
+      "accuracy": 0.9314814814814815,
+      "macro_f1": 0.929124154839541,
+      "balanced_accuracy": 0.9294
+    },
+    {
+      "round": 9,
+      "n_labeled": 1620,
+      "C": 100.0,
+      "accuracy": 0.932037037037037,
+      "macro_f1": 0.929904504023777,
+      "balanced_accuracy": 0.93015
+    },
+    {
+      "round": 10,
+      "n_labeled": 1782,
+      "C": 100.0,
+      "accuracy": 0.9281481481481482,
+      "macro_f1": 0.9257045562757454,
+      "balanced_accuracy": 0.9261833333333334
+    }
+  ],
+  "seconds": 4.4
+}

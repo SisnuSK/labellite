@@ -1,0 +1,23 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: astral-sh/setup-uv@v10
+        with:
+          enable-cache: true
+      - name: Install (CPU-only torch)
+        run: uv sync --locked --extra cpu
+      - name: Lint
+        run: |
+          uv run --extra cpu ruff check .
+          uv run --extra cpu ruff format --check .
+      - name: Test
+        run: uv run --extra cpu pytest

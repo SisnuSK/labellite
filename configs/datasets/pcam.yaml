@@ -1,0 +1,8 @@
+# PCam: official train and test kept; the official valid set is divided 50/50 into val / cal.
+name: pcam
+root: data/raw/pcam
+split_seed: 0
+split_fractions: {val: 0.5, cal: 0.5}
+label_budgets: [0.01, 0.1, 1.0]
+budget_seeds: [0, 1, 2]
+eval_subset_size: null

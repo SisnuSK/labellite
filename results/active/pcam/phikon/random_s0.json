@@ -1,0 +1,162 @@
+{
+  "command": "active_learning",
+  "created_utc": "2026-10-28T21:00:39+00:00",
+  "git": {
+    "commit": null,
+    "dirty": null
+  },
+  "config": {
+    "datasets": [
+      "pcam",
+      "eurosat"
+    ],
+    "models": [
+      "dinov2_vitb14",
+      "phikon"
+    ],
+    "strategies": [
+      "random",
+      "least_confidence",
+      "entropy",
+      "conformal_set_size",
+      "kcenter"
+    ],
+    "initial_fraction": 0.01,
+    "query_fraction": 0.01,
+    "rounds": 10,
+    "seeds": [
+      0,
+      1,
+      2
+    ],
+    "conformal_alpha": 0.1,
+    "n_jobs": 6,
+    "main_config": "configs\\main.yaml",
+    "results_dir": "results\\active"
+  },
+  "hardware": {
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.12.16",
+    "cpu": "Intel64 Family 6 Model 198 Stepping 2, GenuineIntel",
+    "gpu": "NVIDIA GeForce RTX 5070 Laptop GPU",
+    "cuda_available": true,
+    "cuda_version": "13.0"
+  },
+  "packages": {
+    "torch": "2.14.1+cu130",
+    "torchvision": "0.29.1+cu130",
+    "timm": "1.0.30",
+    "open_clip_torch": "3.3.0",
+    "scikit-learn": "1.9.1",
+    "numpy": "2.5.4"
+  },
+  "run": {
+    "dataset": "pcam",
+    "model": "phikon",
+    "strategy": "random",
+    "seed": 0
+  },
+  "split_hash": "88b02621f740d0a2bab046720087220c6928217b728638f77553dc382122ce3a",
+  "history": [
+    {
+      "round": 0,
+      "n_labeled": 2622,
+      "C": 10.0,
+      "accuracy": 0.92889404296875,
+      "macro_f1": 0.9287390906074315,
+      "balanced_accuracy": 0.9288742896722264,
+      "auroc": 0.9812771606541457
+    },
+    {
+      "round": 1,
+      "n_labeled": 5243,
+      "C": 10.0,
+      "accuracy": 0.92431640625,
+      "macro_f1": 0.9240914071551811,
+      "balanced_accuracy": 0.9242933142571613,
+      "auroc": 0.979424288465791
+    },
+    {
+      "round": 2,
+      "n_labeled": 7864,
+      "C": 10.0,
+      "accuracy": 0.92120361328125,
+      "macro_f1": 0.9209422730624444,
+      "balanced_accuracy": 0.9211792168683619,
+      "auroc": 0.9792662578971932
+    },
+    {
+      "round": 3,
+      "n_labeled": 10485,
+      "C": 1.0,
+      "accuracy": 0.92547607421875,
+      "macro_f1": 0.9252560148347175,
+      "balanced_accuracy": 0.9254530606687068,
+      "auroc": 0.9819463849640371
+    },
+    {
+      "round": 4,
+      "n_labeled": 13106,
+      "C": 10.0,
+      "accuracy": 0.920257568359375,
+      "macro_f1": 0.919991114873294,
+      "balanced_accuracy": 0.9202330805041676,
+      "auroc": 0.9786053204970835
+    },
+    {
+      "round": 5,
+      "n_labeled": 15727,
+      "C": 1.0,
+      "accuracy": 0.925048828125,
+      "macro_f1": 0.9248245006263787,
+      "balanced_accuracy": 0.9250256580347465,
+      "auroc": 0.9815284278053529
+    },
+    {
+      "round": 6,
+      "n_labeled": 18348,
+      "C": 10.0,
+      "accuracy": 0.915283203125,
+      "macro_f1": 0.9149324873218276,
+      "balanced_accuracy": 0.9152559371573512,
+      "auroc": 0.9738232091715084
+    },
+    {
+      "round": 7,
+      "n_labeled": 20969,
+      "C": 10.0,
+      "accuracy": 0.913360595703125,
+      "macro_f1": 0.9129664981160337,
+      "balanced_accuracy": 0.913332012494164,
+      "auroc": 0.9730616162718058
+    },
+    {
+      "round": 8,
+      "n_labeled": 23590,
+      "C": 1.0,
+      "accuracy": 0.925506591796875,
+      "macro_f1": 0.9252868706217796,
+      "balanced_accuracy": 0.9254835912909208,
+      "auroc": 0.9814730364537939
+    },
+    {
+      "round": 9,
+      "n_labeled": 26211,
+      "C": 1.0,
+      "accuracy": 0.92449951171875,
+      "macro_f1": 0.9242653631958697,
+      "balanced_accuracy": 0.9244759242956351,
+      "auroc": 0.9814914766441375
+    },
+    {
+      "round": 10,
+      "n_labeled": 28832,
+      "C": 1.0,
+      "accuracy": 0.92291259765625,
+      "macro_f1": 0.9226563806228807,
+      "balanced_accuracy": 0.9228881754782818,
+      "auroc": 0.9811849261748098
+    }
+  ],
+  "seconds": 28.3
+}

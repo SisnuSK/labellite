@@ -1,0 +1,7 @@
+model: resnet50
+dataset: pcam
+batch_size: 256
+num_workers: 4
+device: cuda
+amp: true
+cache_dir: data/cache/features

@@ -1,0 +1,46 @@
+{
+  "dataset": "eurosat",
+  "config": {
+    "name": "eurosat",
+    "splits_dir": "data\\splits",
+    "split_seed": 0,
+    "split_fractions": {
+      "train": 0.6,
+      "val": 0.1,
+      "cal": 0.1,
+      "test": 0.2
+    },
+    "label_budgets": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "budget_seeds": [
+      0,
+      1,
+      2
+    ],
+    "eval_subset_size": null
+  },
+  "split_hash": "2d55b6e0c78a1d17ce44d00d9f9b6b1c05e4210c017baec6fb39911129ee91f8",
+  "split_counts": {
+    "cal": 2700,
+    "test": 5400,
+    "train": 16200,
+    "val": 2700
+  },
+  "per_split_hash": {
+    "cal": "4211ffb7d3cdd7200be54fdf83224db46c3d3e885e8238960fe0f2763ce70db4",
+    "test": "059389f344c02ede131895e5df7f67a083d7a326c9358d29277e329dbfb3deb6",
+    "train": "81929a2405006a7bde821b4125b85f1c18f75464cc56bfaac7a84ce5ecaa2704",
+    "val": "c465ff7290b9dbca048dd9aacac3c1b9bfad33e4e4ba0aef1b650bfd51d97be2"
+  },
+  "budget_hash": {
+    "0.01_seed0": "adaa1502bb45ff9f9bdc6e6004702dad916ea5304ca4015a80173d9d0b6c1382",
+    "0.01_seed1": "662f4da18e04451357f70c96ff558e2b313830566206ccf0ce27d06c41fcc9bf",
+    "0.01_seed2": "4afb7e477a860c1d05d0472263c53f9e2080e004ae991e9f574435db4ce485a0",
+    "0.1_seed0": "19778ce51c815654d68c26226b5ea78c1ba8fd71969b937dcd00fad8f0f0e48b",
+    "0.1_seed1": "de88d79192a3c698459d6f851fa52bf3ca04122f8557d5d8b0c457d7cb6e5416",
+    "0.1_seed2": "10fb4761d54ca8e4d2e698eabf3b4ee19a6687f91e8b7405530161d5865d9d19"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "dataset": "pcam",
+  "config": {
+    "name": "pcam",
+    "splits_dir": "data\\splits",
+    "split_seed": 0,
+    "split_fractions": {
+      "val": 0.5,
+      "cal": 0.5
+    },
+    "label_budgets": [
+      0.01,
+      0.1,
+      1.0
+    ],
+    "budget_seeds": [
+      0,
+      1,
+      2
+    ],
+    "eval_subset_size": null
+  },
+  "split_hash": "88b02621f740d0a2bab046720087220c6928217b728638f77553dc382122ce3a",
+  "split_counts": {
+    "cal": 16383,
+    "test": 32768,
+    "train": 262144,
+    "val": 16385
+  },
+  "per_split_hash": {
+    "cal": "aa3643c6ec016957ae7ce19943f0049617b9ccdd849c33ee47a001887954e027",
+    "test": "36d9c19591bc31eb2107674c16826f0baf1aca3696fee624a2870b7125499902",
+    "train": "52e4292de560ff4009480bfbeb65e303cb65c2e670057316d196ab9ef2453032",
+    "val": "6cb66cdbf2e0afd8ef72ad063609b74ddcbaec3ec7188ce7b884391b3b52e7cc"
+  },
+  "budget_hash": {
+    "0.01_seed0": "ebce81e0db81af1e09fd7637fe4c2076b6ebfa96f75adf4723f68eab08cf07a5",
+    "0.01_seed1": "5e625eea4e48662008633bff90dd72187d7e452b5ed2d3cb8d3abad0c7aa9c2a",
+    "0.01_seed2": "2dbc9d58dd0d54893cbf468584f5ca82c05f1927cac17f1664511f44b07d17eb",
+    "0.1_seed0": "321a5d9d3ae6f6f86a9607a49dc8cb1eeb7be0a56f9f4bc130fd22be8a7e86a1",
+    "0.1_seed1": "d3d331ca140d667543789d7cc7e2c0dbeb9bd622ff016622e8e2561af4c80d6e",
+    "0.1_seed2": "b698716f2b3f3596508d3d0e4436cc2e638fec23f3f64b8a49ab80006267c791"
+  }
+}
